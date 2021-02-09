@@ -50,6 +50,12 @@ My personal portfolio to be updated as I continue my learning.
 ---
 ## Progress
 
+Stage 1: Planning
+
+I was provided an example criteria for layout purposes. In google slides I did a rough draft of it to ease the process when it comes to html and css.
+
+![Image of layout](assets/images/layout.jpg)
+
 
 ---
 ## Installation

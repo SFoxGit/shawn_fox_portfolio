@@ -54,14 +54,21 @@ Stage 1: Planning
 
 I was provided an example criteria for layout purposes. In google slides I did a rough draft of it to ease the process when it comes to html and css.
 
-![Image of layout](assets/images/layout.jpg)
+![layout](assets/images/layout.jpg)
 
 Stage 2: Basic html framework
 
 Sectioning off each area based off the layout above, this will make the css so much easier when it's time to flex!
 
-![Image of html start](assets/images/stage2.jpg)
+![html start](assets/images/stage2.jpg)
 
+Stage 3: Content
+
+A challenging part for me is filling in the content, I am currently a week into my coding bootcamp so I don't have a lot of projects. I'll use fillers to start. 
+
+Tested the using image as a link, worked great! (probably should be focusing on filling out the content though)
+
+![link test horiseon homepage](assets/images/test1.jpg)
 
 ---
 ## Installation

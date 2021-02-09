@@ -56,6 +56,12 @@ I was provided an example criteria for layout purposes. In google slides I did a
 
 ![Image of layout](assets/images/layout.jpg)
 
+Stage 2: Basic html framework
+
+Sectioning off each area based off the layout above, this will make the css so much easier when it's time to flex!
+
+![Image of html start](assets/images/stage2.jpg)
+
 
 ---
 ## Installation

@@ -2,9 +2,76 @@ body {
     background-color: teal;
     display: flex;
     flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: thistle;
+}
+h1 {
+    font-size: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+a {
+    padding-right: 15px;
+}
+
+.hero {
+    height: 700px;
+    width: 100%;
+    background-image: url("../images/shoreline.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0px 40px 20px 0px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+
+}
+
+h3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30%;
+    margin-right: 60px;
+}
+
+p {
+    width: 70%;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.workMain {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.workMain > * {
+    width: 35%;
 }

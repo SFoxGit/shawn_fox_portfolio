@@ -81,4 +81,10 @@ Tested the using image as a link, worked great! (probably should be focusing on 
 ---
 ## Credits
 
+- Hero image: Tomáš Malík via pexels.com [Instagram](https://www.instagram.com/tomas_malco_malik)
 
+- Work Three: [Oleg Magni](https://www.pexels.com/@oleg-magni) via pexels.com
+
+- Work Four: [Markus Spiske](https://www.pexels.com/@markusspiske) via pexels.com
+
+- Work Five: [Maria Orlova](https://www.pexels.com/@orlovamaria) via pexels.com

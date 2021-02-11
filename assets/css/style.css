@@ -15,6 +15,7 @@ header {
 }
 h1 {
     font-size: 30px;
+    padding-left: 20px;
 }
 
 nav {
@@ -24,7 +25,10 @@ nav {
 }
 
 a {
-    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 25;
 }
 
 .hero {
@@ -46,28 +50,45 @@ a {
 .aboutMe {
     display: flex;
     flex-direction: row;
-
+    justify-content: space-evenly;
+    border-bottom: 4px solid black;
+    padding-bottom: 20px;
 }
 
 h3 {
+    font-size: 35px;
     display: flex;
     justify-content: flex-end;
-    /* align-items: center; */
     width: 20%;
-    /* margin-right: 60px; */
+}
+
+.me {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutMe > * {
+    align-items: center;
 }
 
 p {
-    width: 70%;
-    margin-left: 10%;
+    width: 55%;
+    margin-left: 0%;
+}
+
+.recent {
+    width: 40%;
 }
 
 .work {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     height: 1200px;
     margin: 20px 0px;
+    border-bottom: 8px solid black;
 }
 
 .workMain {
@@ -76,7 +97,7 @@ p {
     flex-wrap: wrap;
     justify-content: flex-end;
     max-width: 70%;
-    margin-left: 10%;
+    margin-left: 0%;
     /* box-sizing: border-box; */
     /* border: 2px solid black; */
 }
@@ -86,7 +107,8 @@ div {
     flex-direction: row;
     justify-content: space-around;
     flex: 1 1 auto;
-    height: 33.33%;
+    height: 32%;
+    /* align-items: center; */
     object-fit: cover;
 }
 
@@ -111,12 +133,13 @@ img {
 .contact {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .contactMain {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 70%;
 }
 
 footer {

@@ -1,6 +1,10 @@
 # shawn_fox_portfolio
 My personal portfolio to be updated as I continue my learning.
 
+## Author:
+
+Shawn Fox
+
 ---
 ## Table of Contents
 
@@ -19,6 +23,9 @@ My personal portfolio to be updated as I continue my learning.
 ---
 ## Description
 
+My first coding portfolio.
+
+Designed with employers in mind!
 
 ---
 ## Requirements
@@ -77,6 +84,10 @@ I had to fully delete all my css for the work section multiple times. Flexbox wa
 ![deleted csss](assets/images/flexboxFailures.jpg)
 
 Side note, why would I include this? Isn't it embarassing? No, this is showing my ability to rebound. To use my resources to get to the right answer. 
+
+Stage 5: Testing code
+
+My nave links weren't working because I used section class instead of id, then my css wasn't working because I used . instead of #. Quick fix, just a big scare.
 
 ---
 ## Installation

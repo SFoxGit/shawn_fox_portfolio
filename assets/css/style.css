@@ -20,8 +20,14 @@ h1 {
 
 nav {
     display: flex;
+    flex-direction: row;
     justify-content: end;
     align-items: flex-end;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
 }
 
 a {
@@ -47,7 +53,7 @@ a {
     margin-bottom: 20px;
 }
 
-.aboutMe {
+#aboutMe {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -60,6 +66,7 @@ h3 {
     display: flex;
     justify-content: flex-end;
     width: 20%;
+    margin-right: 10%;
 }
 
 .me {
@@ -69,7 +76,7 @@ h3 {
     justify-content: space-between;
 }
 
-.aboutMe > * {
+#aboutMe > * {
     align-items: center;
 }
 
@@ -80,12 +87,13 @@ p {
 
 .recent {
     width: 40%;
+    margin-right: 20px;
 }
 
-.work {
+#work {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     height: 1200px;
     margin: 20px 0px;
     border-bottom: 8px solid black;
@@ -95,11 +103,9 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     max-width: 70%;
     margin-left: 0%;
-    /* box-sizing: border-box; */
-    /* border: 2px solid black; */
 }
 
 div {
@@ -108,7 +114,6 @@ div {
     justify-content: space-around;
     flex: 1 1 auto;
     height: 32%;
-    /* align-items: center; */
     object-fit: cover;
 }
 
@@ -117,11 +122,135 @@ div > * {
     width: 50%;
 }
 
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+}
+
 .first a {
+    display: flex;
+    overflow: visible;
     width: 100%;
 }
 
+.fp {
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    background-color: white;
+    color: darkblue;
+    max-width: 15%;
+    padding: 5px;
+    position: absolute;
+    right: 45px;
+    bottom: 15px;
+}
 
+.p2 {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.p2 a {
+    display: flex;
+    overflow: visible;
+    width: 100%;
+}
+
+.sp {
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    background-color: white;
+    color: darkblue;
+    max-width: 15%;
+    padding: 5px;
+    position: absolute;
+    right: 45px;
+    bottom: 15px;
+}
+
+.p3 {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.p3 a {
+    display: flex;
+    overflow: visible;
+    width: 100%;
+}
+
+.cs {
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    background-color: white;
+    color: darkblue;
+    max-width: 15%;
+    padding: 5px;
+    position: absolute;
+    right: 45px;
+    bottom: 15px;
+}
+
+.p4 {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.p4 a {
+    display: flex;
+    overflow: visible;
+    width: 100%;
+}
+
+.cs2 {
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    background-color: white;
+    color: darkblue;
+    max-width: 15%;
+    padding: 5px;
+    position: absolute;
+    right: 45px;
+    bottom: 15px;
+}
+
+.p5 {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.p5 a {
+    display: flex;
+    overflow: visible;
+    width: 100%;
+}
+
+.cs3 {
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+    background-color: white;
+    color: darkblue;
+    max-width: 15%;
+    padding: 5px;
+    position: absolute;
+    right: 45px;
+    bottom: 15px;
+}
 
 img {
     display: flex;
@@ -130,19 +259,50 @@ img {
     width: 100%;  
 }
 
-.contact {
+#contact {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
 }
 
 .contactMain {
     display: flex;
     justify-content: space-around;
     width: 70%;
+    background-color: teal;
+    padding: 10px 0px;
 }
 
 footer {
     margin-top: 40px;
     text-align: center;
+}
+
+@media screen and (max-width: 980px) { 
+    body {
+        background-color: darkblue;
+        color: white;
+    }
+    .workMain > * {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .p2, .p3, .p4, .p5  {
+        max-width: 100%;
+        width: 100%;
+    }
+    .workMain.div {
+        height: 20%;
+        justify-content: space-evenly;
+    }
+    .workMain.div > * {
+        justify-content: space-evenly;
+    }
+    .me {
+        flex-direction: column;  
+    }
+    
+    
 }

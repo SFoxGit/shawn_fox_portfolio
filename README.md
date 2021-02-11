@@ -70,6 +70,14 @@ Tested the using image as a link, worked great! (probably should be focusing on 
 
 ![link test horiseon homepage](assets/images/test1.jpg)
 
+Stage 4: CSS
+
+I had to fully delete all my css for the work section multiple times. Flexbox was giving me dificulties. It's now in a good place but a quick look at the carnage as the mistakes were compounding:
+
+![deleted csss](assets/images/flexboxFailures.jpg)
+
+Side note, why would I include this? Isn't it embarassing? No, this is showing my ability to rebound. To use my resources to get to the right answer. 
+
 ---
 ## Installation
 

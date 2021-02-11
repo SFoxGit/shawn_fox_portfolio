@@ -1,8 +1,9 @@
 body {
-    background-color: teal;
+    background-color: lightblue;
     display: flex;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;    
 }
 
 header {
@@ -10,7 +11,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
-    background-color: thistle;
+    background-color: teal;
 }
 h1 {
     font-size: 30px;
@@ -27,7 +28,7 @@ a {
 }
 
 .hero {
-    height: 700px;
+    height: 500px;
     width: 100%;
     background-image: url("../images/shoreline.jpg");
     background-size: cover;
@@ -51,27 +52,74 @@ a {
 h3 {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    width: 30%;
-    margin-right: 60px;
+    /* align-items: center; */
+    width: 20%;
+    /* margin-right: 60px; */
 }
 
 p {
     width: 70%;
+    margin-left: 10%;
 }
 
 .work {
     display: flex;
     flex-direction: row;
-
+    justify-content: flex-end;
+    height: 1200px;
+    margin: 20px 0px;
 }
 
 .workMain {
     display: flex;
     flex-direction: row;
-    width: 70%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 70%;
+    margin-left: 10%;
+    /* box-sizing: border-box; */
+    /* border: 2px solid black; */
 }
 
-.workMain > * {
-    width: 35%;
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1 1 auto;
+    height: 33.33%;
+    object-fit: cover;
+}
+
+
+div > * {
+    width: 50%;
+}
+
+.first a {
+    width: 100%;
+}
+
+
+
+img {
+    display: flex;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;  
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contactMain {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
 }

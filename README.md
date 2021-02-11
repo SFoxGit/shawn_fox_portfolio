@@ -5,6 +5,14 @@ My personal portfolio to be updated as I continue my learning.
 
 Shawn Fox
 
+| [GitHub](https://github.com/SFoxGit) | [Email](sfoxss4@gmail.com) |
+
+---
+## Project Links:
+
+- Deployed site: [GitHub Pages](https://sfoxgit.github.io/shawn_fox_portfolio/)
+- GitHub: [SFoxGit](https://github.com/SFoxGit/shawn_fox_portfolio)
+
 ---
 ## Table of Contents
 
@@ -85,17 +93,35 @@ I had to fully delete all my css for the work section multiple times. Flexbox wa
 
 Side note, why would I include this? Isn't it embarassing? No, this is showing my ability to rebound. To use my resources to get to the right answer. 
 
+I also know I could have done things way easier by doing the images of the work section in background, but I wanted to challenge myself and include them in the link itself.
+
 Stage 5: Testing code
 
-My nave links weren't working because I used section class instead of id, then my css wasn't working because I used . instead of #. Quick fix, just a big scare.
+My nav links weren't working because I used section class instead of id, then my css wasn't working because I used . instead of #. Quick fix, just a big scare.
+
+Stage 6: Fixing
+
+I had a lot to fix, and there is a lot more I will be fixing in the future. I'm not happy with how ineffecient my css, especially in comparison to my horiseon refactor. This is not the end, mearly the end of the beginning. 
+
+Desktop version:
+
+![desktop](assets/images/desktop.jpg)
+
+Mobile version:
+
+![mobile](assets/images/mobile.jpg)
+
 
 ---
 ## Installation
+
+Deployed product can be viewed [here.](https://sfoxgit.github.io/shawn_fox_portfolio/)
 
 
 ---
 ## Contributing
 
+Feel free to contact me with suggestions!
 
 ---
 ## Credits

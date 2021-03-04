@@ -3,120 +3,170 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Shawn Fox | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link id="bootswatch" rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cyborg/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Shawn Fox Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <h1>Shawn Fox</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#aboutMe">About Me</a>
-                </li>
-                <li>
-                    <a href="#work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
+    <nav class="navbar border-bottom border-primary">
+        <a class="navbar-brand text-white" href="#">
+            <img src="assets/images/foxicon.jpg" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
+            Shawn Fox</a>
+        <div class="mr-2 ">
+            <a class="m-3 text-white" href="#aboutMe">About Me</a>
+            <a class="m-3 text-white" href="#work">Work</a>
+            <a class="m-3 text-white" href="#contact">Contact</a>
+        </div>
 
-            </ul>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <h2>Conquering coding</h2>
-    </section>
-    <section id="aboutMe">
-        <h3>About Me</h3>
-        <section class="me">
-            <p>
-                I have nearly 18 years working experience in just about everything except coding. So what drew me to
-                want to
-                learn to code? Coding seemed so fascinating to me, it was
-                largely logic based problem solving (which I love) and you could see a tangible result from your work.
-                Working in sales I wasn't able to point to something and say "That's
-                what all my hard work went into today." The barrier for entry into software engineering or web
-                developement
-                seems non existant so I decided to chase something I can be passionate
-                about. I knew this wasn't going to be easy, but I knew if I put my all into it then I would be
-                successful.
-                There is an old mindset that dates back millennia, if you want to
-                conquer a hostile place you burn your boats upon landing. There is no retreat, you conquer or you
-                perish. I
-                committed to learning to code, I am past the point of no return. I will
-                conquer because I will not allow myself to perish. Take a look below at my conquests so far and lets
-                figure
-                out what WE can conquer together.
-            </p>
-            <img src="assets/images/recent.jpg" class="recent" alt="stick figure">
-        </section>
-    </section>
-    <section id="work">
-        <h3>Work</h3>
-        <section class="workMain">
-            <div class="first">
-                <a href="https://sfoxgit.github.io/horiseon_refactor/" target="_blank">
-                    <img src="assets/images/horiseon.jpg" class="refactor" alt="Horiseon homepage">
-                </a>
-                <section class="fp">
-                    My first project!
-                </section>
+    </nav>
+    <div class="container-fluid text-dark p-2">
+        <div class="row border border-primary rounded m-3 p-2 bg-secondary">
+            <div class="col-xs-12 col-lg-4 p-3">
+                <div class="row border border-primary rounded m-3 indCards p-3">
+                    <div id="aboutMe" class="col-12 d-flex justify-content-center p-2">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center p-2">
+                        <img src="assets/images/Foxedit.jpg" width="200" height="200" class="" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="second">
-                <section class="p2">
-                    <a href="https://sfoxgit.github.io/shawn_fox_portfolio/" target="_blank">
-                        <img src="assets/images/thispage.jpg" class="profile" alt="This same page">
-                    </a>
-                    <section class="sp">
-                        My second project!
-                    </section>
-                </section>
-                <section class="p3">
-                    <a href="#" target="_blank">
-                        <img src="assets/images/computer.jpg" class="three" alt="place holder">
-                    </a>
-                    <section class="cs">
-                        Coming soon!
-                    </section>
-                </section>
-
+            <div class="col-xs-12 col-lg-8 p-3">
+                <div class="row border border-primary rounded m-3 indCards p-3">
+                    <div class="col-12 p-3">
+                        <p>
+                            I have nearly 18 years working experience in just about everything except coding. So what
+                            drew me to want to learn to code? Coding seemed so fascinating to me, it was largely logic
+                            based problem solving (which I love) and you could see a tangible result from your work.
+                            Working in sales I wasn't able to point to something and say "That's what all my hard work
+                            went into today." The barrier for entry into software engineering or web developement seems
+                            non existant so I decided to chase something I can be passionate about. I knew this wasn't
+                            going to be easy, but I knew if I put my all into it then I would be successful. There is an
+                            old mindset that dates back millennia, if you want to conquer a hostile place you burn your
+                            boats upon landing. There is no retreat, you conquer or you perish. I committed to learning
+                            to code, I am past the point of no return. I will conquer because I will not allow myself to
+                            perish. Take a look below at my conquests so far and lets figure out what WE can conquer
+                            together.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="third">
-                <section class="p4">
-                    <a href="#" target="_blank">
-                        <img src="assets/images/matrix.jpg" class="four" alt="another place holder">
-                    </a>
-                    <section class="cs2">
-                        Coming soon!
-                    </section>
-                </section>
-                <section class="p5">
-                    <a href="#" target="_blank">
-                        <img src="assets/images/boats.jpg" class="five" alt="yet another place holder">
-                    </a>
-                    <section class="cs3">
-                        Coming soon!
-                    </section>
-                </section>
+        </div>
+        <div class="row border border-primary rounded m-3 p-2 bg-secondary">
+            <div class="col-xs-12 col-lg-4 p-3">
+                <div class="row border border-primary rounded m-3 indCards p-3">
+                    <div id="work" class="col-12 d-flex justify-content-center p-2">
+                        <h2>Work</h2>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center p-2">
+                        <p>Just a few projects that I have worked on, please browse my GitHub for more examples.</p>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center p-2">
+                        <a href="assets/images/shawnFoxResume2021.pdf" download="">Click here to download my resume!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-8 p-3">
+                <div class="row border border-primary rounded m-3 indCards p-3">
+                    <div class="col-12 d-flex justify-content-center p-2">
+                        <a href="https://sfoxgit.github.io/horiseon_refactor/">
+                            <img class="img-fluid rounded mx-auto d-block" src="assets/images/horiseon.jpg"
+                                alt="deployed site">
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex flex-wrap justify-content-center">
+                        <h5>Refactoring Horiseon</h5>
+                        <p>Simplified code, and increased accessability and functionality. I am very proud of how
+                            condensed
+                            I got the css in this, it was my very first assignment. Click the above image to go to
+                            the diployed site, or <a href="https://github.com/SFoxGit/horiseon_refactor">here</a> to go
+                            to
+                            the GitHub repo.</p>
+                    </div>
+                </div>
+                <div class="row border border-primary rounded m-3 indCards p-3">
+                    <div class="col-12 d-flex justify-content-center p-2">
+                        <a href="https://sfoxgit.github.io/Restaurants-Near-Me/">
+                            <img class="img-fluid rounded mx-auto d-block" src="assets/images/projectdisplay.jpg"
+                                alt="deployed site">
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex flex-wrap justify-content-center">
+                        <h5>Restaurants Near Me</h5>
+                        <p>Group project with the goal of using API's to create a useful webapp. I worked extremely hard
+                            on
+                            the backend of this, there were a lot of learning pains along the way but I am very proud of
+                            the
+                            functionality of this. I envision expanding it more in a social media direction than a yelp
+                            direction (Think restaurant roulette or even what instagram foodies do but without filling
+                            up
+                            non foodies feeds). Click the above image to go to the deployed site, or <a
+                                href="https://github.com/SFoxGit/Restaurants-Near-Me">here</a> to go to the GitHub
+                            repo.</p>
+                    </div>
+                </div>
+                <div class="row border border-primary rounded m-3 indCards p-3">
+                    <div class="col-12 d-flex justify-content-center p-2">
+                        <a href="https://sfoxgit.github.io/weather_search/">
+                            <img class="img-fluid rounded mx-auto d-block" src="assets/images/weatherdashboard.jpg"
+                                alt="deployed site">
+                        </a>
+                    </div>
+                    <div class="col-12 d-flex flex-wrap justify-content-center">
+                        <h5>Weather Dashboard</h5>
+                        <p>The goal of this was to create a weather webapp using openweathermap api and moment. It
+                            certainly
+                            displays my preference for backend developement instead of frontend! Click the above image
+                            to go
+                            to the diployed site, or <a href="https://github.com/SFoxGit/weather_searcdiv">here</a> to
+                            go to
+                            the GitHub repo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row border border-primary rounded m-3 p-2 bg-secondary">
+            <div class="col-xs-12 col-lg-4 p-3">
+                <div class="row border border-primary rounded m-3 indCards p-3">
+                    <div id="contact" class="col-12 d-flex justify-content-center p-2">
+                        <h2>Contact Me:</h2>
+                    </div>
+                </div>
             </div>
 
-        </section>
-    </section>
-    <section id="contact">
-        <h3>Contact</h3>
-        <section class="contactMain">
-            <a href="mailto:sfoxss4@gmail.com">Email: SFoxss4@gmail.com</a>
-            <a href="tel:607-333-5508">Phone: 607-333-5508</a>
-            <a href="https://www.github.com/SFoxGit" target="_blank">GitHub: SFoxGit</a>
-        </section>
-    </section>
-    <footer>
-        Thanks for viewing!
-    </footer>
+            <div class="col-xs-12 col-lg-8  p-2">
+                <div class="row border border-primary rounded m-3 indCards p-3">
+                    <div class="col-xs-12 col-lg-12 text">
+                        <div class="row">
+                            <div class="col-xs-12 col-lg-12 d-flex justify-content-around align-items-center">
+                                <a class="fab fa-linkedin-in icons m-3"
+                                    href="https://www.linkedin.com/in/shawn-fox-350772208/"></a>
+                                    shawn-fox-350772208
+                                <a class="fab fa-github icons m-3" href="https://www.github.com/SFoxGit"></a>
+                                SFoxGit
+                            </div>
+                            <div class="col-xs-12 col-lg-12 d-flex justify-content-around  align-items-center">
+                                <a class="far fa-envelope icons m-3" href="mailto:sfoxss4@gmail.com"></a>
+                                SFoxss4@gmail.com
+                                <a class="fas fa-phone icons m-3" href="tel:607-333-5508"></a>
+                                607-333-5508
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
 </body>
 
 </html>

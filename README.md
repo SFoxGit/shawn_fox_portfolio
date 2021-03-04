@@ -111,6 +111,10 @@ Mobile version:
 
 ![mobile](assets/images/mobile.jpg)
 
+Stage 7: Scrap it
+
+I went through and redid this with bootstrap, because bootstrap is awesome. Updated some projects and added some new features. Trying to think of some fun javascript to add. Check back later!
+
 
 ---
 ## Installation
@@ -133,3 +137,5 @@ Feel free to contact me with suggestions!
 - Work Four: [Markus Spiske](https://www.pexels.com/@markusspiske) via pexels.com
 
 - Work Five: [Maria Orlova](https://www.pexels.com/@orlovamaria) via pexels.com
+
+- Icon: [Yaroslav Shuraev](https://www.pexels.com/@yaroslav-shuraev) via pexels.com
